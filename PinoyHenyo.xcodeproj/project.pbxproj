@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C429057F1BA9885200291838 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C429057E1BA9885200291838 /* AppDelegate.swift */; };
+		C42905821BA9885200291838 /* PinoyHenyo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C42905801BA9885200291838 /* PinoyHenyo.xcdatamodeld */; };
+		C42905841BA9885200291838 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42905831BA9885200291838 /* ViewController.swift */; };
+		C42905871BA9885200291838 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42905851BA9885200291838 /* Main.storyboard */; };
+		C42905891BA9885200291838 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42905881BA9885200291838 /* Images.xcassets */; };
+		C429058C1BA9885200291838 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C429058A1BA9885200291838 /* LaunchScreen.xib */; };
+		C42905981BA9885200291838 /* PinoyHenyoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42905971BA9885200291838 /* PinoyHenyoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C42905921BA9885200291838 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C42905711BA9885200291838 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C42905781BA9885200291838;
+			remoteInfo = PinoyHenyo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C42905791BA9885200291838 /* PinoyHenyo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinoyHenyo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C429057D1BA9885200291838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C429057E1BA9885200291838 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C42905811BA9885200291838 /* PinoyHenyo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PinoyHenyo.xcdatamodel; sourceTree = "<group>"; };
+		C42905831BA9885200291838 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C42905861BA9885200291838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C42905881BA9885200291838 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C429058B1BA9885200291838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C42905911BA9885200291838 /* PinoyHenyoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinoyHenyoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42905961BA9885200291838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C42905971BA9885200291838 /* PinoyHenyoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinoyHenyoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C42905761BA9885200291838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C429058E1BA9885200291838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C42905701BA9885200291838 = {
+			isa = PBXGroup;
+			children = (
+				C429057B1BA9885200291838 /* PinoyHenyo */,
+				C42905941BA9885200291838 /* PinoyHenyoTests */,
+				C429057A1BA9885200291838 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C429057A1BA9885200291838 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C42905791BA9885200291838 /* PinoyHenyo.app */,
+				C42905911BA9885200291838 /* PinoyHenyoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C429057B1BA9885200291838 /* PinoyHenyo */ = {
+			isa = PBXGroup;
+			children = (
+				C429057E1BA9885200291838 /* AppDelegate.swift */,
+				C42905831BA9885200291838 /* ViewController.swift */,
+				C42905851BA9885200291838 /* Main.storyboard */,
+				C42905881BA9885200291838 /* Images.xcassets */,
+				C429058A1BA9885200291838 /* LaunchScreen.xib */,
+				C42905801BA9885200291838 /* PinoyHenyo.xcdatamodeld */,
+				C429057C1BA9885200291838 /* Supporting Files */,
+			);
+			path = PinoyHenyo;
+			sourceTree = "<group>";
+		};
+		C429057C1BA9885200291838 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C429057D1BA9885200291838 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C42905941BA9885200291838 /* PinoyHenyoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C42905971BA9885200291838 /* PinoyHenyoTests.swift */,
+				C42905951BA9885200291838 /* Supporting Files */,
+			);
+			path = PinoyHenyoTests;
+			sourceTree = "<group>";
+		};
+		C42905951BA9885200291838 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C42905961BA9885200291838 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C42905781BA9885200291838 /* PinoyHenyo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C429059B1BA9885200291838 /* Build configuration list for PBXNativeTarget "PinoyHenyo" */;
+			buildPhases = (
+				C42905751BA9885200291838 /* Sources */,
+				C42905761BA9885200291838 /* Frameworks */,
+				C42905771BA9885200291838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinoyHenyo;
+			productName = PinoyHenyo;
+			productReference = C42905791BA9885200291838 /* PinoyHenyo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C42905901BA9885200291838 /* PinoyHenyoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C429059E1BA9885200291838 /* Build configuration list for PBXNativeTarget "PinoyHenyoTests" */;
+			buildPhases = (
+				C429058D1BA9885200291838 /* Sources */,
+				C429058E1BA9885200291838 /* Frameworks */,
+				C429058F1BA9885200291838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C42905931BA9885200291838 /* PBXTargetDependency */,
+			);
+			name = PinoyHenyoTests;
+			productName = PinoyHenyoTests;
+			productReference = C42905911BA9885200291838 /* PinoyHenyoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C42905711BA9885200291838 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Christopher Andrew R Magdangal";
+				TargetAttributes = {
+					C42905781BA9885200291838 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C42905901BA9885200291838 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C42905781BA9885200291838;
+					};
+				};
+			};
+			buildConfigurationList = C42905741BA9885200291838 /* Build configuration list for PBXProject "PinoyHenyo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C42905701BA9885200291838;
+			productRefGroup = C429057A1BA9885200291838 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C42905781BA9885200291838 /* PinoyHenyo */,
+				C42905901BA9885200291838 /* PinoyHenyoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C42905771BA9885200291838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42905871BA9885200291838 /* Main.storyboard in Resources */,
+				C429058C1BA9885200291838 /* LaunchScreen.xib in Resources */,
+				C42905891BA9885200291838 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C429058F1BA9885200291838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C42905751BA9885200291838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42905841BA9885200291838 /* ViewController.swift in Sources */,
+				C429057F1BA9885200291838 /* AppDelegate.swift in Sources */,
+				C42905821BA9885200291838 /* PinoyHenyo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C429058D1BA9885200291838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42905981BA9885200291838 /* PinoyHenyoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C42905931BA9885200291838 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C42905781BA9885200291838 /* PinoyHenyo */;
+			targetProxy = C42905921BA9885200291838 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C42905851BA9885200291838 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C42905861BA9885200291838 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C429058A1BA9885200291838 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C429058B1BA9885200291838 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C42905991BA9885200291838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C429059A1BA9885200291838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C429059C1BA9885200291838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PinoyHenyo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C429059D1BA9885200291838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PinoyHenyo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C429059F1BA9885200291838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PinoyHenyoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinoyHenyo.app/PinoyHenyo";
+			};
+			name = Debug;
+		};
+		C42905A01BA9885200291838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PinoyHenyoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinoyHenyo.app/PinoyHenyo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C42905741BA9885200291838 /* Build configuration list for PBXProject "PinoyHenyo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42905991BA9885200291838 /* Debug */,
+				C429059A1BA9885200291838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C429059B1BA9885200291838 /* Build configuration list for PBXNativeTarget "PinoyHenyo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C429059C1BA9885200291838 /* Debug */,
+				C429059D1BA9885200291838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C429059E1BA9885200291838 /* Build configuration list for PBXNativeTarget "PinoyHenyoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C429059F1BA9885200291838 /* Debug */,
+				C42905A01BA9885200291838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C42905801BA9885200291838 /* PinoyHenyo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C42905811BA9885200291838 /* PinoyHenyo.xcdatamodel */,
+			);
+			currentVersion = C42905811BA9885200291838 /* PinoyHenyo.xcdatamodel */;
+			path = PinoyHenyo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C42905711BA9885200291838 /* Project object */;
+}
