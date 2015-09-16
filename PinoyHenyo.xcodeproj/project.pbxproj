@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		C429057F1BA9885200291838 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C429057E1BA9885200291838 /* AppDelegate.swift */; };
 		C42905821BA9885200291838 /* PinoyHenyo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C42905801BA9885200291838 /* PinoyHenyo.xcdatamodeld */; };
-		C42905841BA9885200291838 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42905831BA9885200291838 /* ViewController.swift */; };
 		C42905871BA9885200291838 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42905851BA9885200291838 /* Main.storyboard */; };
 		C42905891BA9885200291838 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42905881BA9885200291838 /* Images.xcassets */; };
 		C429058C1BA9885200291838 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C429058A1BA9885200291838 /* LaunchScreen.xib */; };
 		C42905981BA9885200291838 /* PinoyHenyoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42905971BA9885200291838 /* PinoyHenyoTests.swift */; };
+		C42905A21BA9890000291838 /* pHenyo.plist in Resources */ = {isa = PBXBuildFile; fileRef = C42905A11BA9890000291838 /* pHenyo.plist */; };
+		C42905A81BA9911800291838 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42905A71BA9911800291838 /* CategoryTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +32,14 @@
 		C429057D1BA9885200291838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C429057E1BA9885200291838 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C42905811BA9885200291838 /* PinoyHenyo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PinoyHenyo.xcdatamodel; sourceTree = "<group>"; };
-		C42905831BA9885200291838 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C42905861BA9885200291838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C42905881BA9885200291838 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C429058B1BA9885200291838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C42905911BA9885200291838 /* PinoyHenyoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinoyHenyoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42905961BA9885200291838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C42905971BA9885200291838 /* PinoyHenyoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinoyHenyoTests.swift; sourceTree = "<group>"; };
+		C42905A11BA9890000291838 /* pHenyo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pHenyo.plist; sourceTree = "<group>"; };
+		C42905A71BA9911800291838 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				C429057E1BA9885200291838 /* AppDelegate.swift */,
-				C42905831BA9885200291838 /* ViewController.swift */,
 				C42905851BA9885200291838 /* Main.storyboard */,
+				C42905A71BA9911800291838 /* CategoryTableViewController.swift */,
+				C42905A11BA9890000291838 /* pHenyo.plist */,
 				C42905881BA9885200291838 /* Images.xcassets */,
 				C429058A1BA9885200291838 /* LaunchScreen.xib */,
 				C42905801BA9885200291838 /* PinoyHenyo.xcdatamodeld */,
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C42905871BA9885200291838 /* Main.storyboard in Resources */,
+				C42905A21BA9890000291838 /* pHenyo.plist in Resources */,
 				C429058C1BA9885200291838 /* LaunchScreen.xib in Resources */,
 				C42905891BA9885200291838 /* Images.xcassets in Resources */,
 			);
@@ -215,9 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C42905841BA9885200291838 /* ViewController.swift in Sources */,
 				C429057F1BA9885200291838 /* AppDelegate.swift in Sources */,
 				C42905821BA9885200291838 /* PinoyHenyo.xcdatamodeld in Sources */,
+				C42905A81BA9911800291838 /* CategoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

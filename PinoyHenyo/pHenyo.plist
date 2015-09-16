@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>categoryList</key>
+	<dict>
+		<key>Event</key>
+		<array>
+			<string>xmas party</string>
+			<string>invasion</string>
+		</array>
+		<key>Food</key>
+		<array>
+			<string>Proven</string>
+			<string>fries</string>
+			<string>pizza</string>
+		</array>
+		<key>Animals</key>
+		<array>
+			<string>cheetah</string>
+			<string>cock</string>
+		</array>
+		<key>Person</key>
+		<array>
+			<string>Chino</string>
+			<string>Wrylle</string>
+		</array>
+		<key>Thing</key>
+		<array>
+			<string>ADDU</string>
+			<string>Bahay</string>
+		</array>
+		<key>Place</key>
+		<array>
+			<string>Smartphone</string>
+			<string>Lighter</string>
+		</array>
+	</dict>
+</dict>
+</plist>
