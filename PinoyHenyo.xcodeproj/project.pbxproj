@@ -15,6 +15,7 @@
 		C42905981BA9885200291838 /* PinoyHenyoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42905971BA9885200291838 /* PinoyHenyoTests.swift */; };
 		C42905A21BA9890000291838 /* pHenyo.plist in Resources */ = {isa = PBXBuildFile; fileRef = C42905A11BA9890000291838 /* pHenyo.plist */; };
 		C42905A81BA9911800291838 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42905A71BA9911800291838 /* CategoryTableViewController.swift */; };
+		C47C9E4B1BAC1C6800F12F57 /* General.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47C9E4A1BAC1C6800F12F57 /* General.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		C42905971BA9885200291838 /* PinoyHenyoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinoyHenyoTests.swift; sourceTree = "<group>"; };
 		C42905A11BA9890000291838 /* pHenyo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pHenyo.plist; sourceTree = "<group>"; };
 		C42905A71BA9911800291838 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		C47C9E4A1BAC1C6800F12F57 /* General.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = General.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				C429057E1BA9885200291838 /* AppDelegate.swift */,
 				C42905851BA9885200291838 /* Main.storyboard */,
 				C42905A71BA9911800291838 /* CategoryTableViewController.swift */,
+				C47C9E4A1BAC1C6800F12F57 /* General.swift */,
 				C42905A11BA9890000291838 /* pHenyo.plist */,
 				C42905881BA9885200291838 /* Images.xcassets */,
 				C429058A1BA9885200291838 /* LaunchScreen.xib */,
@@ -221,6 +224,7 @@
 			files = (
 				C429057F1BA9885200291838 /* AppDelegate.swift in Sources */,
 				C42905821BA9885200291838 /* PinoyHenyo.xcdatamodeld in Sources */,
+				C47C9E4B1BAC1C6800F12F57 /* General.swift in Sources */,
 				C42905A81BA9911800291838 /* CategoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +423,7 @@
 				C429059D1BA9885200291838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C429059E1BA9885200291838 /* Build configuration list for PBXNativeTarget "PinoyHenyoTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +432,7 @@
 				C42905A01BA9885200291838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

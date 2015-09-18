@@ -9,10 +9,30 @@
 import UIKit
 
 class CategoryTableViewController: UITableViewController {
+    
+    
+    
+    var category : [String : [String]] = [:]
+    
+  //  if let path
 
     override func viewDidLoad() {
+        
+        
+        
         super.viewDidLoad()
 
+        if let path = NSBundle.mainBundle().pathForResource("pHenyo", ofType: "plist"){
+            if let rootDict = NSDictionary(contentsOfFile: path){
+                if let studentDict = rootDict["categoryList"] as? [String: [String]]{
+                    for i in studentDict {
+                        println(i)
+                        //category.append(i)
+                    }
+                }
+            }
+        }
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -37,6 +57,14 @@ class CategoryTableViewController: UITableViewController {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
         return 0
+    }
+    
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath:NSIndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier("list", forIndexPath: indexPath) as! UITableViewCell
+        
+//        cell.textLabel!.text = category[indexPath.row].categoryList
+    
+        return cell
     }
 
     /*
